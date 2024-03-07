@@ -1,0 +1,136 @@
+@font-face {
+    src: url("./myfont.ttf");
+    font-family: myfont;
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: myfont !important;
+}
+
+
+
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+
+/* stylish scrollbar */
+::-webkit-scrollbar {
+    width: 1.135rem;
+    background:lightgray;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,255,1); 
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    background: #91c090;
+}
+/* stylish scrollbar */
+
+
+
+
+/* react select */
+.select__control {
+    cursor: pointer !important;
+}
+/* react select */
+
+
+
+
+.myHoverEffect1, .myHoverEffect2, .myHoverEffect3, .myHoverEffect4 {
+    /* Animation */
+    transition: all 0.5s;
+}
+.myHoverEffect1:hover {
+    /* Animation */
+    transform: scale(1.075);
+}
+.myHoverEffect2:hover {
+    /* Animation */
+    transform: scale(1.195);
+}
+.myHoverEffect3:hover {
+    /* Animation */
+    transform: scale(1.015);
+}
+.myHoverEffect4:hover {
+    /* Animation */
+    transform: scale(1.005);
+}
+
+
+
+
+@media (max-width: 1326px) {
+    html {
+       font-size: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    html {
+       font-size: 95%;
+    }
+}
+@media (max-width: 1100px) {
+    html {
+       font-size: 90%;
+    }
+}
+@media (max-width: 1000px) {
+    html {
+       font-size: 85%;
+    }
+}
+@media (max-width: 900px) {
+    html {
+       font-size: 80%;
+    }
+}
+@media (max-width: 770px) {
+    html {
+       font-size: 75%;
+    }
+}
+@media (max-width: 680px) {
+    html {
+       font-size: 70%;
+    }
+}
+@media (max-width: 600px) {
+    html {
+       font-size: 65%;
+    }
+}
+@media (max-width: 530px) {
+    html {
+       font-size: 60%;
+    }
+}
+@media (max-width: 350px) {
+    html {
+       font-size: 55%;
+    }
+}
+@media (max-width: 250px) {
+    html {
+       font-size: 50%;
+    }
+}
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
