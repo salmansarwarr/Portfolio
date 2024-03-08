@@ -171,7 +171,7 @@ export default [
         id: 28,
         name: "Horesly",
         technologies: "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Wagmi <b>|</b> Nft",
-        url: "https://blend-botanix.vercel.app/",
+        url: "https://horselyworld.com/",
         pic: project28,
     },
 ];
