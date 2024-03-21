@@ -142,7 +142,7 @@ export default [
     {
         id: 26,
         name: "NFT Marketplace",
-        technologies: "Web3 <b>|</b> NextJS <b>|</b> GraphQL <b>|</b> Nft",
+        technologies: "Web3 <b>|</b> NextJS <b>|</b> GraphQL <b>|</b> DAPP <b></b> Nft",
         url: "https://nft-marketplace-salman.vercel.app/",
         pic: project26,
     },
