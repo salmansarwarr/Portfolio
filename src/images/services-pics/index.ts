@@ -30,6 +30,7 @@ export { default as netlify } from "./netlify.png";
 export { default as firebase } from "./firebase.png";
 export { default as testing } from "./testing.png";
 export { default as hardhat } from "./hardhat.png";
+export { default as dapp } from "./dapp.png";
 //SVG
 export { default as service } from "./service.svg";
 export { default as project } from "./project.svg";

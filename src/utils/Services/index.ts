@@ -17,7 +17,6 @@ import {
     bootstrap,
     tailwind,
     mui,
-    styledcomponent,
     sql,
     mysql,
     mongodb,
@@ -26,10 +25,11 @@ import {
     firebase,
     testing,
     smartContract,
-    hardhat
+    dapp
 } from '../../images/services-pics';
 
 export default [
+    { id: 40, name: "DAPP", detail: "Decentralized Applications", pic: dapp },
     { id: 40, name: "SMART CONTRACTS", detail: "Smart Contracts", pic: smartContract },
     { id: 19, name: "MERN STACK", detail: "Full Stack", pic: mern },
     { id: 9, name: "NEXT JS", detail: "ReactJS Framework", pic: next },

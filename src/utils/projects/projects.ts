@@ -31,20 +31,6 @@ export default [
         pic: project1,
     },
     {
-        id: 2,
-        name: "Simply Recipies",
-        technologies: "HTML <b>|</b> CSS <b>|</b> JavaScript",
-        url: "https://simplyrecipes-salman.firebaseapp.com/index.html",
-        pic: project2,
-    },
-    {
-        id: 5,
-        name: "Netflix Clone",
-        technologies: "HTML <b>|</b> CSS <b>|</b> JavaScript <b>|</b> Clone",
-        url: "https://netflixclone-salman.web.app",
-        pic: project5,
-    },
-    {
         id: 7,
         name: "Frontend Bootcamp",
         technologies:
@@ -163,14 +149,14 @@ export default [
     {
         id: 27,
         name: "NFT Passport",
-        technologies: "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Wagmi <b>|</b> Nft",
+        technologies: "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b></b> Nft",
         url: "https://blend-botanix.vercel.app/",
         pic: project27,
     },
     {
         id: 28,
         name: "Horesly",
-        technologies: "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Wagmi <b>|</b> Nft",
+        technologies: "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b>|</b> Nft",
         url: "https://horselyworld.com/",
         pic: project28,
     },
