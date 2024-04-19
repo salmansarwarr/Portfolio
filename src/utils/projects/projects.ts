@@ -1,11 +1,8 @@
 import {
     project1,
-    project2,
-    project5,
     project7,
     project10,
     project11,
-    project13,
     project14,
     project16,
     project17,
@@ -19,7 +16,8 @@ import {
     project25,
     project26,
     project27,
-    project28
+    project28,
+    project29,
 } from "../../images/projects-pics";
 
 export default [
@@ -112,13 +110,6 @@ export default [
         pic: project18,
     },
     {
-        id: 13,
-        name: "Netflix Clone",
-        technologies: "ReactJS <b>|</b> SCSS <b>|</b> Clone",
-        url: "https://netflixclone-salman.netlify.app",
-        pic: project13,
-    },
-    {
         id: 23,
         name: "Memories App",
         technologies: "MERN <b>|</b> Material-UI",
@@ -142,22 +133,33 @@ export default [
     {
         id: 26,
         name: "NFT Marketplace",
-        technologies: "Web3 <b>|</b> NextJS <b>|</b> GraphQL <b>|</b> DAPP <b></b> Nft",
+        technologies:
+            "Web3 <b>|</b> NextJS <b>|</b> GraphQL <b>|</b> DAPP <b></b> Nft",
         url: "https://nft-marketplace-salman.vercel.app/",
         pic: project26,
     },
     {
         id: 27,
         name: "NFT Passport",
-        technologies: "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b></b> Nft",
-        url: "https://blend-botanix.vercel.app/",
+        technologies:
+            "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b></b> Nft",
+        url: "https://blend-neonevm.vercel.app/",
         pic: project27,
     },
     {
         id: 28,
         name: "Horesly",
-        technologies: "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b>|</b> Nft",
+        technologies:
+            "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b>|</b> Nft",
         url: "https://horselyworld.com/",
         pic: project28,
+    },
+    {
+        id: 29,
+        name: "DFC referral swap",
+        technologies:
+            "Web3 <b>|</b> DEX <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> DAPP",
+        url: "https://dfcfrontend-a8d84ed5d403.herokuapp.com/",
+        pic: project29,
     },
 ];

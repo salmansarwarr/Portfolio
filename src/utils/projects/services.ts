@@ -1,6 +1,7 @@
 export default [
     {value: "Web3", label: "Web3"},
     {value: "DAPP", label: "DAPP"},
+    {value: "DEX", label: "DEX"},
     {value: "Nft", label: "Nft"},
     {value: "ReactJS", label: "ReactJS"},
     {value: "NextJS", label: "NextJS"},

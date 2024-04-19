@@ -19,3 +19,4 @@ export { default as project25 } from "./project25.png";
 export { default as project26 } from "./project26.png";
 export { default as project27 } from "./project27.png";
 export { default as project28 } from "./project28.png";
+export { default as project29 } from "./project29.png";
