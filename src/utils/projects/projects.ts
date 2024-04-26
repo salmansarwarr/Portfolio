@@ -130,14 +130,14 @@ export default [
         url: "https://life-insurance-gamma.vercel.app/",
         pic: project25,
     },
-    {
-        id: 26,
-        name: "NFT Marketplace",
-        technologies:
-            "Web3 <b>|</b> NextJS <b>|</b> GraphQL <b>|</b> DAPP <b></b> Nft",
-        url: "https://nft-marketplace-salman.vercel.app/",
-        pic: project26,
-    },
+    // {
+    //     id: 26,
+    //     name: "NFT Marketplace",
+    //     technologies:
+    //         "Web3 <b>|</b> NextJS <b>|</b> GraphQL <b>|</b> DAPP <b></b> Nft",
+    //     url: "https://nft-marketplace-salman.vercel.app/",
+    //     pic: project26,
+    // },
     {
         id: 27,
         name: "NFT Passport",

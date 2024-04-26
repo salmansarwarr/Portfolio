@@ -8,14 +8,12 @@ import Button from '@mui/material/Button';
 
 function Header() {
     const router = useRouter();
-
-
     const screen680 = useMediaQuery('(max-width: 680px)');
     const screen370 = useMediaQuery('(max-width: 370px)');
 
 
     return (
-        <AppBar position="sticky" elevation={5} className={`bg-black ${screen370&&`pb-2`}`}>
+        <AppBar position="sticky" elevation={5} sx={{backgroundColor: 'rgb(31 41 55)'}} className={`bg-gray-800 ${screen370&&`pb-2`}`}>
             <Toolbar className={`d-flex justify-content-center align-items-center ${screen370?`flex-column`:`flex-row`} ${screen370&&`ml-3`}`}>
                 <h1 className={`flex-1 text-5xl ${screen370&&`mt-2.5`}`}>
                     <span className="badge cursor-pointer selection:bg-transparent myHoverEffect1" onClick={() => router.asPath !== '/' && router.push('/')}> Portfolio </span>
