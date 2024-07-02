@@ -18,6 +18,9 @@ import {
     project27,
     project28,
     project29,
+    project30,
+    project31,
+    project32
 } from "../../images/projects-pics";
 
 export default [
@@ -27,6 +30,7 @@ export default [
         technologies: "HTML <b>|</b> CSS <b>|</b> Animation",
         url: "https://tugboatanimation-salman.firebaseapp.com/",
         pic: project1,
+        category: 'web'
     },
     {
         id: 7,
@@ -35,6 +39,7 @@ export default [
             "HTML <b>|</b> CSS <b>|</b> JavaScript <b>|</b> Bootstrap",
         url: "https://frontendbootcamp-salman.firebaseapp.com",
         pic: project7,
+        category: 'web'
     },
     {
         id: 16,
@@ -42,6 +47,7 @@ export default [
         technologies: "ReactJS <b>|</b> Material-UI <b>|</b> Typescript",
         url: "https://quizusingtypescript-salman.netlify.app",
         pic: project16,
+        category: 'web'
     },
     {
         id: 20,
@@ -49,6 +55,7 @@ export default [
         technologies: "ReactJS <b>|</b> Tailwind-CSS",
         url: "https://dataanalytics-salman.netlify.app",
         pic: project20,
+        category: 'web'
     },
     {
         id: 10,
@@ -57,6 +64,7 @@ export default [
             "ReactJS <b>|</b> Redux <b>|</b> SCSS <b>|</b> E-commerce",
         url: "https://fakeshop-salman.netlify.app",
         pic: project10,
+        category: 'web'
     },
     {
         id: 11,
@@ -65,6 +73,7 @@ export default [
             "ReactJS <b>|</b> Redux <b>|</b> SCSS <b>|</b> E-commerce",
         url: "https://shoestore-salman.netlify.app",
         pic: project11,
+        category: 'web'
     },
     {
         id: 17,
@@ -72,6 +81,7 @@ export default [
         technologies: "NextJS <b>|</b> Module-CSS",
         url: "https://world-ranks-salman.vercel.app",
         pic: project17,
+        category: 'web'
     },
     {
         id: 19,
@@ -79,6 +89,7 @@ export default [
         technologies: "ReactJS <b>|</b> SCSS <b>|</b> Clone",
         url: "https://googleclone-salman.netlify.app",
         pic: project19,
+        category: 'web'
     },
     {
         id: 14,
@@ -87,6 +98,7 @@ export default [
             "ReactJS <b>|</b> Material-UI <b>|</b> SCSS <b>|</b> Clone",
         url: "https://youtubeclone-salman.netlify.app",
         pic: project14,
+        category: 'web'
     },
     {
         id: 21,
@@ -94,6 +106,7 @@ export default [
         technologies: "NextJS <b>|</b> Tailwind-CSS",
         url: "https://gpt-3-landing-page-seven.vercel.app",
         pic: project21,
+        category: 'web'
     },
     {
         id: 22,
@@ -101,6 +114,7 @@ export default [
         technologies: "MERN <b>|</b> Full-Stack <b>|</b> CSS",
         url: "https://goals-mern-app.vercel.app",
         pic: project22,
+        category: 'web'
     },
     {
         id: 18,
@@ -108,6 +122,7 @@ export default [
         technologies: "NextJS <b>|</b> Chakra-UI",
         url: "https://real-state-salman.vercel.app",
         pic: project18,
+        category: 'web'
     },
     {
         id: 23,
@@ -115,6 +130,7 @@ export default [
         technologies: "MERN <b>|</b> Material-UI",
         url: "https://memories-salman.vercel.app",
         pic: project23,
+        category: 'web'
     },
     {
         id: 24,
@@ -122,6 +138,7 @@ export default [
         technologies: "NextJS <b>|</b> TailwindCSS",
         url: "https://initialstream.vercel.app",
         pic: project24,
+        category: 'web'
     },
     {
         id: 25,
@@ -129,15 +146,8 @@ export default [
         technologies: "NextJS <b>|</b> TailwindCSS",
         url: "https://life-insurance-gamma.vercel.app/",
         pic: project25,
+        category: 'web'
     },
-    // {
-    //     id: 26,
-    //     name: "NFT Marketplace",
-    //     technologies:
-    //         "Web3 <b>|</b> NextJS <b>|</b> GraphQL <b>|</b> DAPP <b></b> Nft",
-    //     url: "https://nft-marketplace-salman.vercel.app/",
-    //     pic: project26,
-    // },
     {
         id: 27,
         name: "NFT Passport",
@@ -145,6 +155,7 @@ export default [
             "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b></b> Nft",
         url: "https://blend-neonevm.vercel.app/",
         pic: project27,
+        category: 'web3'
     },
     {
         id: 28,
@@ -153,6 +164,7 @@ export default [
             "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b>|</b> Nft",
         url: "https://horselyworld.com/",
         pic: project28,
+        category: 'web3'
     },
     {
         id: 29,
@@ -161,5 +173,33 @@ export default [
             "Web3 <b>|</b> DEX <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> DAPP",
         url: "https://dfcfrontend-a8d84ed5d403.herokuapp.com/",
         pic: project29,
+        category: 'web3'
+    },
+    {
+        id: 30,
+        name: "Gif Portal",
+        technologies:
+            "Web3 <b>|</b> Solana <b>|</b> ReactJS <b>|</b> DAPP",
+        url: "https://sol-giphy.vercel.app/",
+        pic: project31,
+        category: 'web3'
+    },
+    {
+        id: 31,
+        name: "Crowdfunding",
+        technologies:
+            "Web3 <b>|</b> Solana <b>|</b> ReactJS <b>|</b> DAPP",
+        url: "https://solana-fund.vercel.app/",
+        pic: project30,
+        category: 'web3'
+    },
+    {
+        id: 32,
+        name: "Blend (Chainlink)",
+        technologies:
+            "Web3 <b>|</b> NextJS <b>|</b> Hardhat <b>|</b> Web3 <b>|</b> DAPP <b></b> Nft <b></b> Chainlink",
+        url: "https://blend-chainlink.vercel.app/",
+        pic: project32,
+        category: 'web3'
     },
 ];

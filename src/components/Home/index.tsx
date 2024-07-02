@@ -382,7 +382,7 @@ function Home({ title, images }: HomeProps) {
                                     : `flex align-middle justify-center flex-col`
                             }`}
                         >
-                            <Zoom duration={1300}>
+                            {/* <Zoom duration={1300}>
                                 {screen840 ? (
                                     <div className="relative md:-my-10 lg:-my-2">
                                         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-[21rem] mt-14">
@@ -408,7 +408,7 @@ function Home({ title, images }: HomeProps) {
                                         </div>
                                     </div>
                                 )}
-                            </Zoom>
+                            </Zoom> */}
                             <div className="mt-12 m-0 col-span-2 pl-8">
                                 <div className="mx-auto px-0 py-20 max-w-none">
                                     <blockquote>
@@ -551,86 +551,6 @@ function Home({ title, images }: HomeProps) {
                         </div>
                     </div>
                 </div>
-
-                {/* <div className="relative bg-gray-800">
-                    <div className="absolute inset-0">
-                        <Image
-                            className="w-full h-full object-cover"
-                            src={javascript}
-                            alt="javascript"
-                            layout="fill"
-                        />
-                        <div
-                            className="absolute inset-0 bg-gray-800 mix-blend-multiply"
-                            aria-hidden="true"
-                        ></div>
-                    </div>
-                    <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 selection:bg-transparent">
-                        <div className="text-center myHoverEffect3">
-                            <Slide duration={1300} left>
-                                <p
-                                    className="mt-1 text-4xl font-extrabold text-gray-50 sm:text-5xl sm:tracking-normal lg:text-6xl cursor-pointer"
-                                    style={{ wordSpacing: "0.285rem" }}
-                                >
-                                    JavaScript Developer
-                                </p>
-                            </Slide>
-                            <Slide duration={1300} right>
-                                <p
-                                    className="pl-0.5 pr-0.5 max-w-xl mt-5 mx-auto italic text-xl text-gray-200 tracking-normal"
-                                    style={{
-                                        wordSpacing: "0.115rem",
-                                        fontSize: !screen300 ? "1.1rem" : "",
-                                    }}
-                                >
-                                    &ldquo; My personal programming language is
-                                    the mighty JavaScript that's why I have
-                                    great expertise in this language &rdquo;
-                                </p>
-                            </Slide>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="relative bg-gray-800">
-                    <div className="absolute inset-0">
-                        <Image
-                            className="w-full h-full object-cover"
-                            src={typescript}
-                            alt="typescript"
-                            layout="fill"
-                        />
-                        <div
-                            className="absolute inset-0 bg-gray-800 mix-blend-multiply"
-                            aria-hidden="true"
-                        ></div>
-                    </div>
-                    <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 selection:bg-transparent">
-                        <div className="text-center myHoverEffect3">
-                            <Slide duration={1300} right>
-                                <p
-                                    className="mt-1 text-4xl font-extrabold text-gray-50 sm:text-5xl sm:tracking-normal lg:text-6xl cursor-pointer"
-                                    style={{ wordSpacing: "0.285rem" }}
-                                >
-                                    TypeScript Developer
-                                </p>
-                            </Slide>
-                            <Slide duration={1300} left>
-                                <p
-                                    className="pl-0.5 pr-0.5 max-w-xl mt-5 mx-auto italic text-xl text-gray-200 tracking-normal"
-                                    style={{
-                                        wordSpacing: "0.115rem",
-                                        fontSize: !screen300 ? "1.1rem" : "",
-                                    }}
-                                >
-                                    &ldquo; My second programming language is
-                                    the mighty TypeScript that's why I have
-                                    great expertise in this language &rdquo;
-                                </p>
-                            </Slide>
-                        </div>
-                    </div>
-                </div> */}
 
                 <footer
                     className={`bg-transparent ${
